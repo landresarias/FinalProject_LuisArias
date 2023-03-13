@@ -1,0 +1,113 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Rubik+Iso&display=swap');
+
+#Header {
+    //position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(rgba(9, 2, 99, 0.3), rgba(9, 2, 99, 0.5)), url(/public/assets/gastronomia62.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: #a8a8a8;
+    border-bottom: 6px solid #940000;
+}    
+
+#Welcome {
+    position: absolute;
+    width: 40%;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    padding: 0px 2%;
+    /*background: rgba(236, 194, 132, 0.5);
+    color: rgba(236, 194, 132, 1);*/
+    color: #fff;
+    text-align: center;
+    text-decoration: solid;
+    /*text-shadow: 2px 2px 5px rgb(99, 18, 18);*/
+    text-shadow: 1px 1px 2px #000, 0 0 25px rgb(0, 122, 0), 0 0 5px rgb(256, 256, 256);
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+}
+
+#Delicias {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    right: 30%;
+    padding: 0px 0%;
+    color: #fff;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 1px 1px 2px #000, 0 0 25px rgb(0, 122, 0), 0 0 5px rgb(256, 256, 256);
+    font-family: 'Comic Sans MS';
+    border-radius: 10px;
+    align-items: center;
+    line-height: 100px;
+}
+
+#TheMost {
+    position: absolute;
+    width: 40%;
+    top: 55%;
+    left: 30%;
+    right: 30%;
+    padding: 0px 0%;
+    color: #fff;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 1px 1px 2px #000, 0 0 25px rgb(0, 122, 0), 0 0 5px rgb(256, 256, 256);
+    font-family: 'Comic Sans MS';
+    border-radius: 10px;
+    align-items: center;
+    line-height: 100px;
+}
+
+.Text {
+    position: absolute;
+    width: 14.5%;
+    margin: 0 2.5%;
+    padding: 0 15px;
+    /*background: rgba(236, 194, 132, 0.5);*/
+    background: rgb(256, 256, 256, 0.5);
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+}
+
+    .Text > h6 {
+        padding-top: 11px;
+        text-align: center;
+        color: #bb0303;
+        font-weight: 700;
+        float: left;
+    }
+
+    .Text > h5 {
+        padding-top: 8px;
+        text-align: right;
+        color: #146d35;
+        font-weight: 900;
+        /*-webkit-text-stroke: 0.5px black;*/
+    }
+
+#address {
+    margin-top: 10px;
+    margin-left: 10%;
+    padding: 10px 50px;
+    background: rgb(54, 52, 52, 0.30);
+    border-radius: 10px;
+    float: left;
+}
+
+
+    #address > h4 {
+        /*color: rgba(236, 194, 132, 1);*/
+        color: #fff;
+        font-family: cursive;
+        font-size: 1rem;
+        line-height: 12px;
+    }
